@@ -56,16 +56,17 @@
 
 ## 🚀 快速开始
 
-### 0. 不想编译？直接下载可执行文件
+### 0. 不想编译？下载即玩
 
-到 [Releases](https://github.com/fn28710/caculater/releases) 页面下载 `c2bad.exe`，
-放到本仓库根目录（与 `out/` 同级）再运行：
+到 [Releases](https://github.com/fn28710/caculater/releases) 页面下载：
 
-```bat
-c2bad.exe
-```
+| 下载 | 说明 |
+| --- | --- |
+| **`caculater-v1.0.0-win64.zip`**（约 2.4 MB） | **下载即玩**：解压后双击 `caculater-v1.0.0\\c2bad.exe` 即可，已包含 `out/` 帧数据 |
+| `c2bad.exe`（单文件） | 需放到本仓库根目录（与 `out/` 同级）运行 |
 
-> exe 单独下载是不够的 —— 程序要靠 `out/BA (n).txt` 播放彩蛋，所以仍需仓库里的 `out/` 目录。
+> 单文件 exe 不能单独运行 —— 程序靠 `out/BA (n).txt` 播放彩蛋，所以完整包才「下载即玩」。
+> 下载物**仅供学习参考、非商业使用**，帧数据版权归属见 [NOTICE.md](NOTICE.md)。
 
 ### 1. 克隆
 
