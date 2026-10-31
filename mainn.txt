@@ -1,0 +1,47 @@
+#include <stdio.h>  
+  
+int main() {  
+    char operator;  
+    double firstNumber, secondNumber;  
+  
+    printf("请输入运算符 (+, -, *, /, %%)：");  
+    scanf(" %c", &operator); // 注意在%c前加空格以忽略之前的换行符  
+  
+    printf("请输入两个操作数：");  
+    scanf("%lf %lf", &firstNumber, &secondNumber);  
+  
+    switch(operator) {  
+        case '+':  
+            printf("%.1lf + %.1lf = %.1lf", firstNumber, secondNumber, firstNumber + secondNumber);  
+            break;  
+        case '-':  
+            printf("%.1lf - %.1lf = %.1lf", firstNumber, secondNumber, firstNumber - secondNumber);  
+            break;  
+        case '*':  
+            printf("%.1lf * %.1lf = %.1lf", firstNumber, secondNumber, firstNumber * secondNumber);  
+            break;  
+        case '/':  
+            // 添加除数为0的检查  
+            if(secondNumber != 0.0)  
+                printf("%.1lf / %.1lf = %.1lf", firstNumber, secondNumber, firstNumber / secondNumber);  
+            else  
+                printf("除数不能为0");  
+            break;  
+        case '%':  
+            // 注意：%运算符只适用于整数  
+            // 如果需要处理浮点数，请额外处理或改用其他方式  
+            if(firstNumber >= 0 && secondNumber != 0.0) {  
+                int intFirst = (int)firstNumber;  
+                int intSecond = (int)secondNumber;  
+                printf("%d %% %d = %d", intFirst, intSecond, intFirst % intSecond);  
+            } else {  
+                printf("对于取余运算，第一个数必须非负，第二个数不能为0");  
+            }  
+            break;  
+        // 可以添加default来处理非法输入  
+        default:  
+            printf("错误！运算符非法");  
+    }  
+  
+    return 0;  
+}

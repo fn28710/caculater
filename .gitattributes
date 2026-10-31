@@ -1,0 +1,11 @@
+# 交给 Git 自动识别文本/二进制
+* text=auto
+
+*.cpp text
+*.h   text
+*.md  text
+*.bat text eol=crlf
+
+# ★ 关键：字符画帧数据必须保持逐字节原样（每个文件精确 1944 字节 =
+#   80 列 x 24 行 + 24 个 LF）。一旦被 Git 做 CRLF 转换，80 列对齐就会错位。
+out/*.txt -text

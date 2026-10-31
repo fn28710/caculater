@@ -1,0 +1,25 @@
+# ---- 编译产物 ----
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# ---- IDE / 编辑器 ----
+.vscode/
+.idea/
+.dev-cpp/
+*.layout
+*.depend
+*.win
+Makefile.win
+
+# ---- 系统 ----
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.log
