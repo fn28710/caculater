@@ -1,6 +1,9 @@
 # Bad Apple!! 字符画计算器
 
 > 一个 C/C++ 控制台课程作业：**四则运算计算器** + **用 6571 帧 ASCII 字符画播放《Bad Apple!!》** 的隐藏彩蛋。
+>
+> 作者：**P.enHanceYu**（GitHub: [@fn28710](https://github.com/fn28710)）· 代码以 MIT 许可发布
+> 彩蛋素材：字符画帧来自外部 2014 数据集，**非本项目原创**（详见 [NOTICE.md](NOTICE.md)）
 
 ```
                                                  iMMMMMMMMMM
