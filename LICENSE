@@ -19,17 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
--------------------------------------------------------------------------------
-注意 / NOTE
-
-上面的 MIT 许可仅覆盖本仓库中的“源代码”（*.cpp、build.bat、文档等），
-不覆盖 out/ 目录下的 6571 个字符画帧数据 —— 那些帧是《Bad Apple!!》
-影绘 PV 的演绎作品，版权归原作者，按非商业同人二次创作使用，不随本仓库
-授权，也不授予任何再分发许可。详见 NOTICE.md。
-
-The MIT license above covers ONLY the source code in this repository
-(*.cpp, build.bat, docs). It does NOT cover the 6571 ASCII-art frames under
-out/ — those are derivative works of the Bad Apple!! shadow-art PV, used as
-non-commercial fan art, and are not licensed for redistribution here.
-See NOTICE.md.

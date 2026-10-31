@@ -7,6 +7,9 @@
 `c2bad.cpp`、`c2bad_fixed.cpp`、`c1 - 副本.cpp`、`build.bat`、本仓库文档等，
 作者 chuan，采用 **MIT 许可**（见 [LICENSE](LICENSE)）。
 
+> 作用范围：`LICENSE` 中的 MIT 条款**只覆盖上述源代码与文档**。GitHub 侧边栏显示的
+> “MIT license” 同样只代表代码部分，不代表 `out/` 下的字符画帧数据可以按 MIT 使用。
+
 ## 2. 字符画帧数据（`out/`，共 6571 个 .txt）
 
 这些帧由《Bad Apple!!》影绘版 PV 逐帧转换而来，**不是**本仓库的原创作品，也**不**适用 MIT 许可。
