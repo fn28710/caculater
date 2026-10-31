@@ -4,21 +4,23 @@
 
 ## 1. 原创代码
 
-本仓库的代码由 **P.enHanceYu**（GitHub: [@fn28710](https://github.com/fn28710)）编写，
-采用 **MIT 许可**（见 [LICENSE](LICENSE)）：
+本仓库的代码由 **P.enHanceYu**（GitHub: [@fn28710](https://github.com/fn28710)）与 **chuan**
+合作完成，分工见 [CONTRIBUTORS.md](CONTRIBUTORS.md)，采用 **MIT 许可**（见 [LICENSE](LICENSE)）：
 
 | 内容 | 作者 / 来源 | 许可 |
 | --- | --- | --- |
-| 四则运算计算器逻辑（菜单、输入、四则运算） | **P.enHanceYu** | MIT |
-| Bad Apple 字符画播放与彩蛋触发逻辑 | **P.enHanceYu** | MIT |
+| 四则运算计算器逻辑（主循环、菜单、输入处理、四则运算） | **P.enHanceYu** | MIT |
+| 把 Bad Apple 彩蛋接进计算器菜单的触发逻辑 | **P.enHanceYu** | MIT |
+| Bad Apple 字符画动画函数（`runbadapple()` / `recursur()`） | **chuan** | 保留原作者署名 |
 | `c2bad_fixed.cpp` 的缺陷修复与重写 | P.enHanceYu（AI 助手协助起草） | MIT |
 | `README` / `LICENSE` / `NOTICE` / `build.bat` / `push-to-github.bat` / `docs/` | P.enHanceYu（AI 助手协助起草） | MIT |
 | 原稿里的署名 `Made by chuan.`（`c1.cpp`、`c2bad.cpp`） | chuan —— **保留原始署名，未做改动** | 保留 |
-| `out/` 6571 帧字符画数据 | **非本项目原创**：外部 2014 年数据集，源出《Bad Apple!!》影绘 PV | 见第 2 节 |
+| `out/` 6571 帧字符画数据 | **非本项目原创**：2014 年数据集，随 chuan 的动画实现一同使用，源出《Bad Apple!!》影绘 PV | 见第 2 节 |
 
-> 关于 `chuan`：原稿源码里那行 `Made by chuan.` 是 2024 年提交时的原始署名，我们原样保留，
-> 并在 `LICENSE` 中保留其版权行；本仓库的作者与维护者是 P.enHanceYu。若两者是同一人，或署名有误，
-> 欢迎提 Issue 更正。
+> 关于 `chuan`：原稿源码里那行 `Made by chuan.` 是 2024 年提交时动画函数作者的原始署名，
+> 我们原样保留，并在 `LICENSE` 中保留其版权行。计算器部分由 P.enHanceYu 编写、原先没有署名，
+> 由本文件与 [CONTRIBUTORS.md](CONTRIBUTORS.md) 补充署名。若分工有出入，欢迎提 Issue 更正。
+> 如 chuan 对该动画函数在本仓库中被沿用、或被纳入 MIT 授权范围有异议，联系我们后会立即调整或移除该部分。
 >
 > 作用范围：`LICENSE` 中的 MIT 条款**只覆盖上述源代码与文档**。GitHub 侧边栏显示的
 > “MIT license” 同样只代表代码部分，不代表 `out/` 下的字符画帧数据可以按 MIT 使用。

@@ -2,8 +2,8 @@
 
 > 一个 C/C++ 控制台课程作业：**四则运算计算器** + **用 6571 帧 ASCII 字符画播放《Bad Apple!!》** 的隐藏彩蛋。
 >
-> 作者：**P.enHanceYu**（GitHub: [@fn28710](https://github.com/fn28710)）· 代码以 MIT 许可发布
-> 彩蛋素材：字符画帧来自外部 2014 数据集，**非本项目原创**（详见 [NOTICE.md](NOTICE.md)）
+> 计算器：**P.enHanceYu**（GitHub: [@fn28710](https://github.com/fn28710)）· Bad Apple 动画函数：**chuan**
+> 代码以 MIT 许可发布；字符画帧数据非本项目原创 —— 分工见 [CONTRIBUTORS.md](CONTRIBUTORS.md)，权属见 [NOTICE.md](NOTICE.md)
 
 ```
                                                  iMMMMMMMMMM
@@ -130,6 +130,7 @@ caculater/
 ├── push-to-github.bat   # 一键上传 GitHub（建库 → push → 打 tag）
 ├── LICENSE              # 代码许可（MIT）
 ├── NOTICE.md            # 素材版权与二次创作声明（务必阅读）
+├── CONTRIBUTORS.md      # 贡献名单：计算器 / 动画函数各自是谁写的
 ├── README.md
 ├── docs/
 │   ├── license-research.md    # ZUN 规约与许可选型调研
@@ -181,6 +182,16 @@ caculater/
 4. `fopen` 判空并给出可读错误提示；
 5. 修正四个运算的文案，除法补零判断；
 6. 主循环支持 `q` 退出；计时改为绝对时间轴 + `Sleep`，CPU 占用从 100% 降到接近 0。
+
+## 👥 贡献者
+
+| 贡献者 | 写了什么 |
+| --- | --- |
+| **P.enHanceYu**（[@fn28710](https://github.com/fn28710)） | 计算器主体（主循环、菜单、输入、四则运算）、彩蛋触发逻辑、修复版、构建脚本与文档 |
+| **chuan** | Bad Apple 字符画动画函数（`runbadapple()` / `recursur()`：读帧、计时推进、光标归位重绘） |
+
+完整分工、以及 `out/` 帧数据的来源见 [CONTRIBUTORS.md](CONTRIBUTORS.md)。原稿里 `Made by chuan.`
+指的是动画作者；计算器部分原先没有署名，这里补上。
 
 ## 📜 版权与许可（务必阅读）
 
