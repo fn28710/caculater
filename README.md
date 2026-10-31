@@ -56,6 +56,17 @@
 
 ## 🚀 快速开始
 
+### 0. 不想编译？直接下载可执行文件
+
+到 [Releases](https://github.com/fn28710/caculater/releases) 页面下载 `c2bad.exe`，
+放到本仓库根目录（与 `out/` 同级）再运行：
+
+```bat
+c2bad.exe
+```
+
+> exe 单独下载是不够的 —— 程序要靠 `out/BA (n).txt` 播放彩蛋，所以仍需仓库里的 `out/` 目录。
+
 ### 1. 克隆
 
 ```bash
