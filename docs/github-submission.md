@@ -40,8 +40,8 @@ git push -u origin main
 推送前建议确认：
 
 ```bash
-git status          # 应该没有 c2bad.exe（已被 .gitignore 忽略）
-git ls-files out | wc -l   # 应该是 6571
+git status                 # 应该没有 c2bad.exe（已被 .gitignore 忽略）
+git ls-files out | wc -l   # 应该是 6571（PowerShell: (git ls-files out).Count）
 ```
 
 ## 3. 把仓库加进 Project 看板
