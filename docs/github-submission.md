@@ -12,6 +12,20 @@ https://github.com/users/fn28710/projects/1/views/1?system_template=feature_rele
 它**不是** Git 仓库地址，`git push` 不能推到这里 —— 代码要推到你自己的**仓库（Repository）**，
 然后再把“这个仓库 / 这次发布”作为一个 **item** 加进那个 Project 看板。
 
+## 0.5 最快的路径：双击 `push-to-github.bat`
+
+```
+1. 双击 push-to-github.bat
+2. 脚本会自动打开 https://github.com/new?name=caculater
+   → 选 Public（别勾 Add a README）→ 点 Create repository
+3. 回到黑窗口按任意键
+   → 首次会弹出浏览器让 Git Credential Manager 登录 GitHub 并授权
+4. 脚本自动执行 git push -u origin main + 打 tag v1.0.0 + 推送 tag
+```
+
+之后只需要把仓库加进 [Project 看板](https://github.com/users/fn28710/projects/1)。
+下面的步骤是手动逐条执行的版本，排查问题时对照用。
+
 ## 1. 创建仓库（网页端）
 
 1. 打开 <https://github.com/new>

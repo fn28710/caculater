@@ -124,6 +124,7 @@ caculater/
 ├── c1 - 副本.cpp         # 最早期只有计算器的备份版本
 ├── mainn.txt            # 早期草稿（纯计算器，含 % 取余，未编译）
 ├── build.bat            # MinGW 一键编译脚本
+├── push-to-github.bat   # 一键上传 GitHub（建库 → push → 打 tag）
 ├── LICENSE              # 代码许可（MIT）
 ├── NOTICE.md            # 素材版权与二次创作声明（务必阅读）
 ├── README.md
